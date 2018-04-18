@@ -14,9 +14,9 @@ use Facebook\Exceptions\FacebookSDKException;
 /*
  * Configuration and setup Facebook SDK
  */
-$appId 			= '142740246424809'; 
-$appSecret 		= 'f48ed4254d1c394cd909b066654410b5'; 
-$redirectURL 	= 'http://ec2-18-217-131-163.us-east-2.compute.amazonaws.com/'; 
+$appId 			= ''; 
+$appSecret 		= ''; 
+$redirectURL     	= ''; 
 $fbPermissions 	= array('email');  s
 
 $fb = new Facebook(array(
